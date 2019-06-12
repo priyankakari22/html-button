@@ -1,0 +1,47 @@
+HTML code
+<a class="button" href="#">Checkout</a>
+CSS code
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #177ce8;
+    border-radius: 8px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fffcfc));
+    background: -moz-linear-gradient(top, #ffffff, #fffcfc);
+    background: linear-gradient(to bottom, #ffffff, #fffcfc);
+    font: normal normal bold 16px courier new;
+    color: #1691f0;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #1ea1ff;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    color: #1691f0;
+    text-decoration: none;
+}
+.button:active {
+    background: #999999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#fffcfc));
+    background: -moz-linear-gradient(top, #999999, #fffcfc);
+    background: linear-gradient(to bottom, #999999, #fffcfc);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADWUlEQVRIia2UT2gdVRTGf9/tNIQQYoRiQOKbcZ6IkCJ1YQviohAQUVBBwUCW4kK6li7EhTtL3bgRBFdFFwXRRRWLaEVwVSqIlhTqy/PNq/8IIaiJITzH+7l4M+m8l0QkeDf3nDPfOeee75wzaqfpMeA9IDGA9Xm333ud/+kcufOO2VLiF9AXmBR4bGp6+u3NzU2ACKjCHkoWECqFPE3nga+Be7pFMWh+O6ycNMsRbADB1kw7TbdsIRksLCMrVjfNmwpnK0oOsdK7RbGbIADYApgAvm+U2Tz/SR9ypEE7zU4lYx8iUFosYn5GgMEQKrG+EYTqxtUDAbAC8gnMm6CNEYosSmAgvL3aL9Y4+BzIe95KE8xF4NXVfm8QGqAQB0TMjq2p2gaELMsCEO5ttcLCwsKuT7uVTjT9K/k1oXXQu1QVN19AO82+M7zULXpfASFP0yVgXdaU5Q2hgLkPmAbmkD9cLYqrAO1WlhluIB7uFr0VIN7mrqbJ/k1D52FvrCvASeAhWYvYJyw+QEwDf9r0d53FUxLfdove9do0MkUAEn8YH6ttEjOG68jXDAMQwo/aXAAl3WGvav9Txp819DAyRcMStI64u7KF1aJ3E7g5RuVHjDX5wbm5sGUfBy7WvvtTBGvYT7ezbILROf9XeWtycgqRIV1t2ptNDgB5mj4O+hi8gvWNYGAZoeECAMN9dKx2YEJoEjxrc1LS8zqafNrpdEZ6sJsxmstBLIMWwL8jbav+f1U55EqRKwYcbBKJFvCJB3+dBd6oY+6h6bCn3UrPt1uZ8zS9UduaFRyY6DSn+TEtiI6JpAAktgNSILJDUJTjrGFeAsGVOt4eivI8D/wdv5TdspQIT9zyDwmoua23ZVFWzZkU2sC8hXi5jrlnkwHyVpYLJpFLW6XkAVBilZZLrCgIyImtIFHKbHf6vZ3x6vdM0QinaXa/8RPAViiPvtP5qTP+PTF+rmr6+6v9XjkeYw9FdcK8lSXAJZlrwCPxSLkDXGhijF+RecZSlFkEXhyPs19ja8AE9l2gM5bOCi/vg1my9ILMouWlPE1nxjEHTlE0OyFoRfZ54LjR5XGMzAb4WUsR+BW0PY5pKrHxsti71YvgZcSa0CXwuXEM0hlLDwDzsp7sFr1yHPMPVAiVY+6B8rwAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
